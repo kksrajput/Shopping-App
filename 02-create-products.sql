@@ -69,3 +69,33 @@ unit_price, category_id, date_created)
 VALUES ('TechBooks-105', 'Head First Java', 'Learn Java',
 'assets/images/products/books/105.jpg'
 ,1,100,24.99,1, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('TechBooks-106', 'Ang-book', 'Learn Coding',
+'assets/images/products/books/106.jpg'
+,1,100,29.99,1, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('TechBooks-107', 'Road to React', 'Learn Coding',
+'assets/images/products/books/107.jpg'
+,1,100,29.99,1, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('TechBooks-108', 'The C programming language', 'Learn Coding',
+'assets/images/products/books/108.jpg'
+,1,100,29.99,1, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('TechBooks-109', 'C++ Primer plus', 'Learn Coding',
+'assets/images/products/books/109.jpg'
+,1,100,29.99,1, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('TechBooks-110', 'Effective java', 'Learn Coding',
+'assets/images/products/books/110.jpg'
+,1,100,29.99,1, NOW());
