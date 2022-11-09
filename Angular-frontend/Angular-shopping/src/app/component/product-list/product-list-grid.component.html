@@ -1,3 +1,22 @@
+<div class = "main-content">
+    <div class = "section-content section-content-p30">
+        <div class = "container-fluid">
+            <div class = "row">
+                <div *ngFor = "let temp of products" class = "col-md-3">
+                    <div class = "product-box">
+                        <img src = "{{ temp.imageUrl }}" class = "img-responsive">
+                        <h1>{{temp.name}}</h1>
+                        <div class = "price">{{ temp.unitPrice | currency: 'INR'}}</div>
+                        <a href = "#" class = "primary-btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+
+
+<!-- 
 <table class = "table">
     <thead class = "thead-dark">
         <th></th>
@@ -15,4 +34,4 @@
         </tr>
     </tbody>
 </table>
-
+ -->
