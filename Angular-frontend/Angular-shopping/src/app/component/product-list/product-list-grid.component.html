@@ -3,6 +3,7 @@
         <div class = "container-fluid">
             <div class = "row">
                 <div *ngFor = "let temp of products" class = "col-md-3">
+                    {{ temp.imageUrl }}
                     <div class = "product-box">
                         <img src = "{{ temp.imageUrl }}" class = "img-responsive img-sizing">
                         <h1>{{temp.name}}</h1>
